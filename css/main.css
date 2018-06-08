@@ -39,15 +39,15 @@ a .card, .card {
 }
 
 .card:hover {
-     border-bottom: solid 5px #5C93CE;
+     border-bottom: solid 5px #2c3e50;;
 }
 
 .card:hover .card-inline-title {
-    color: #5C93CE;
+    color: #2c3e50;
 }
 
 .card-header {
-    background-color: #5C93CE;
+    background-color: #2c3e50;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -62,9 +62,9 @@ a .card, .card {
 }
 
 .card-footer {
-    color: $gray;
+    color: #344a5f;
     text-transform: uppercase;
-    font-family: $font-family-sans-serif;
+    font-family: 'Adagio';
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -73,13 +73,13 @@ a .card, .card {
 }
 
 #learn-card .card-header {
-    background-color: #F47753;
+    background-color: #18bc9c;
 }
 
 #learn-card:hover {
-    border-bottom: solid 5px #F47753;
+    border-bottom: solid 5px #18bc9c;
 }
 
 #learn-card:hover .card-inline-title {
-  color: #F47753;
+  color: #18bc9c;
 }
