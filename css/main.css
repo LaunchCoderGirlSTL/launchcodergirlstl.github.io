@@ -1,0 +1,85 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.card h4 {
+	text-align: center;
+	color: #344a5f;
+	font-size: 15px;
+	font-weight: 600;
+    font-family: "Nexa";
+	letter-spacing: 0.1em;
+    margin: 10px 0;
+}
+
+p {
+    color: #344a5f;
+    font-size: 15px;
+}
+
+a .card, .card {
+    background-color: white;
+    height: 320px;  /*setting this manually to the height of the card with the most content*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    text-transform: none;
+    font-weight: 400;
+    font-family: "Adagio";
+    font-size: 13.5px;
+    text-decoration: none !important;
+}
+
+.learn-card:link,
+.learn-card:visited,
+.learn-card:hover,
+.learn-card:active,
+.learn-card:focus {
+    text-decoration: none !important;
+}
+
+.card:hover {
+     border-bottom: solid 5px #5C93CE;
+}
+
+.card:hover .card-inline-title {
+    color: #5C93CE;
+}
+
+.card-header {
+    background-color: #5C93CE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-header h4 {
+    color: white;
+}
+
+.card-content {
+    padding: 15px;
+    letter-spacing: normal;
+}
+
+.card-footer {
+    color: $gray;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#learn-card .card-header {
+    background-color: #F47753;
+}
+
+#learn-card:hover {
+    border-bottom: solid 5px #F47753;
+}
+
+#learn-card:hover .card-inline-title {
+  color: #F47753;
+}
